@@ -1,6 +1,6 @@
 import React from 'react'
-import Offer from "./components/Offer.jsx"
-import './styles/Offers.css'
+import Offer from "./Offer.jsx"
+import '../styles/Offers.css'
 const Offers = ({offers}) => {
   return (
     <div className='offersSection'>
