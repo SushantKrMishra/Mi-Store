@@ -6,7 +6,7 @@ const Slider = ({ start }) => {
     <Carousel fade>
       {start?.map((item, index) => {
         return (
-          <Carousel.Item>
+          <Carousel.Item interval={3000}>
             <img src={item} alt="Loading error" className="d-block w-100" />
           </Carousel.Item>
         );
